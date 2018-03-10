@@ -1,0 +1,6 @@
+triggers {
+  cron('H 12 * * 1-5')
+}
+logRotator {
+  numToKeep(20)
+}
